@@ -1,7 +1,77 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>John Doe's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            margin: 15px;
+        }
+        .project, .certificate {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .title {
+            font-size: 20px;
+            color: #333;
+        }
+        .description {
+            color: #666;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="header">
+        <h1>John Doe's Portfolio</h1>
+    </div>
+    <div class="content">
+        <h2>My Projects</h2>
+        <div class="project">
+            <div class="title">Project 1</div>
+            <img src="project1.jpg" alt="Project 1">
+            <div class="description">This is a brief description of Project 1.</div>
+        </div>
+        <div class="project">
+            <div class="title">Project 2</div>
+            <img src="project2.jpg" alt="Project 2">
+            <div class="description">This is a brief description of Project 2.</div>
+        </div>
+        <h2>My Certificates</h2>
+        <div class="certificate">
+            <div class="title">Certificate 1</div>
+            <img src="certificate1.jpg" alt="Certificate 1">
+            <div class="description">This is a brief description of Certificate 1.</div>
+        </div>
+        <div class="certificate">
+            <div class="title">Certificate 2</div>
+            <img src="certificate2.jpg" alt="Certificate 2">
+            <div class="description">This is a brief description of Certificate 2.</div>
+        </div>
+    </div>
+    <script>
+        var projects = document.querySelectorAll('.project');
+        projects.forEach(function(project) {
+            project.addEventListener('click', function() {
+                alert('You clicked on ' + this.querySelector('.title').textContent);
+            });
+        });
+    </script>
 </body>
 </html>
