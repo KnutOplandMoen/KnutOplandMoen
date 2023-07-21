@@ -18,24 +18,19 @@
         .content {
             margin: 15px;
         }
-        .project, .certificate {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin-bottom: 15px;
-        }
-        .title {
-            font-size: 20px;
-            color: #333;
-        }
-        .description {
-            color: #666;
-        }
-        img {
-            width: 100%;
-            max-width: 300px;
+        select {
+            padding: 5px;
         }
     </style>
+    <script>
+        function navigateToProject() {
+            var select = document.getElementById('projectSelect');
+            var selectedProject = select.options[select.selectedIndex].value;
+            if (selectedProject) {
+                window.location.href = selectedProject + '.html';
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -43,35 +38,11 @@
     </div>
     <div class="content">
         <h2>My Projects</h2>
-        <div class="project">
-            <div class="title">Project 1</div>
-            <img src="project1.jpg" alt="Project 1">
-            <div class="description">This is a brief description of Project 1.</div>
-        </div>
-        <div class="project">
-            <div class="title">Project 2</div>
-            <img src="project2.jpg" alt="Project 2">
-            <div class="description">This is a brief description of Project 2.</div>
-        </div>
-        <h2>My Certificates</h2>
-        <div class="certificate">
-            <div class="title">Certificate 1</div>
-            <img src="certificate1.jpg" alt="Certificate 1">
-            <div class="description">This is a brief description of Certificate 1.</div>
-        </div>
-        <div class="certificate">
-            <div class="title">Certificate 2</div>
-            <img src="certificate2.jpg" alt="Certificate 2">
-            <div class="description">This is a brief description of Certificate 2.</div>
-        </div>
+        <select id="projectSelect" onchange="navigateToProject()">
+            <option value="">Select a project</option>
+            <option value="project1">Project 1</option>
+            <option value="project2">Project 2</option>
+        </select>
     </div>
-    <script>
-        var projects = document.querySelectorAll('.project');
-        projects.forEach(function(project) {
-            project.addEventListener('click', function() {
-                alert('You clicked on ' + this.querySelector('.title').textContent);
-            });
-        });
-    </script>
 </body>
 </html>
