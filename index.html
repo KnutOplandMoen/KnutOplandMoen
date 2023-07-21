@@ -21,13 +21,25 @@
         select {
             padding: 5px;
         }
+        .dropdown {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .intro {
+            font-size: 1.2em;
+            color: #333;
+        }
+        h2 {
+            color: #333;
+        }
     </style>
     <script>
-        function navigateToProject() {
-            var select = document.getElementById('projectSelect');
-            var selectedProject = select.options[select.selectedIndex].value;
-            if (selectedProject) {
-                window.location.href = selectedProject + '.html';
+        function navigateToPage() {
+            var select = document.getElementById('pageSelect');
+            var selectedPage = select.options[select.selectedIndex].value;
+            if (selectedPage) {
+                window.location.href = selectedPage + '.html';
             }
         }
     </script>
@@ -35,14 +47,24 @@
 <body>
     <div class="header">
         <h1>John Doe's Portfolio</h1>
+        <div class="dropdown">
+            <select id="pageSelect" onchange="navigateToPage()">
+                <option value="">Navigate to...</option>
+                <option value="project1">Project 1</option>
+                <option value="project2">Project 2</option>
+                <option value="certificate1">Certificate 1</option>
+                <option value="certificate2">Certificate 2</option>
+            </select>
+        </div>
     </div>
     <div class="content">
-        <h2>My Projects</h2>
-        <select id="projectSelect" onchange="navigateToProject()">
-            <option value="">Select a project</option>
-            <option value="project1">Project 1</option>
-            <option value="project2">Project 2</option>
-        </select>
+        <p class="intro">Welcome to my portfolio! I'm John Doe, a software engineer specializing in web development. Below are some highlights of my work and accomplishments.</p>
+        <h2>Projects</h2>
+        <p>Project 1: A brief description of Project 1.</p>
+        <p>Project 2: A brief description of Project 2.</p>
+        <h2>Certificates</h2>
+        <p>Certificate 1: A brief description of Certificate 1.</p>
+        <p>Certificate 2: A brief description of Certificate 2.</p>
     </div>
 </body>
 </html>
