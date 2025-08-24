@@ -24,23 +24,3 @@ Here are a few of my favorite projects.
 | **[light_NN](https://github.com/KnutOplandMoen/light_NN)**                                               | A neural network framework for supervised and Q-learning, built from scratch in C++ as part of a university course project.                                                       | `C++`    |
 
 ---
-
-### 💼 Some of my work Experience
-
-- **Research Intern** @ [Norwegian Defence Research Establishment (FFI)](https://www.ffi.no/en) | *June 2025 – August 2025*
-  - Explored agentic AI for semi-automation of solving machine learning problems.
-- **Project Lead** @ [ReLU NTNU](https://reluntnu.no/) | *January 2025 – June 2025*
-  - Worked as a data scientist and Co-led a student team to successfully deliver an entity matching pipeline for Rystad Energy.
----
-
-### 🛠️ Languages and Tools
-
-- **Programming Languages**: Python, C++
-- **Technologies & Concepts**: Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), Large Language Models (LLMs), Git, Agentic AI
-
----
-
-### 📫 Connect with Me
-
-- **Email**: knut.o.moen@gmail.com  
-- **LinkedIn**: [Knut Opland Moen](https://www.linkedin.com/in/knut-opland-moen-2501a7230/)
