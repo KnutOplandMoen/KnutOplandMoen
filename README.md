@@ -40,14 +40,6 @@ Here are a few of my favorite projects.
 
 ---
 
-### 🏆 Awards and Recognition
-
-- **Third Place**, Norwegian AI Championship 2025
-- **Best Project Nominee**, Procedural and Object-Oriented Programming course 2025
-- **Finalist**, Norwegian Physics Olympiad 2023
-
----
-
 ### 📫 Connect with Me
 
 - **Email**: knut.o.moen@gmail.com  
