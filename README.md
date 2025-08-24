@@ -35,7 +35,7 @@ Here are a few of my favorite projects.
 
 ### 🛠️ Languages and Tools
 
-- **Programming Languages**: Python, C++, Java
+- **Programming Languages**: Python, C++
 - **Technologies & Concepts**: Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), Large Language Models (LLMs), Git, Agentic AI
 
 ---
