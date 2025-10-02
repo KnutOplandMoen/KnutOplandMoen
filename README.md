@@ -8,7 +8,7 @@ I'm Knut, a Master's student in Computer Science at the Norwegian University of 
 
 ### About Me
 
-- 🎓 M.Sc. in Computer Science, NTNU (August 2024 – Present)
+- 🎓 Computer Science, NTNU (August 2024 – Present)
 - 🔭 My primary interests lie in agentic AI, natural language processing, and computer vision.
 
 ---
