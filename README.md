@@ -2,7 +2,7 @@
 
 ### Hi there 👋
 
-I'm Knut, a Master's student in Computer Science at the Norwegian University of Science and Technology (NTNU)
+I'm Knut, a Computer Science student at the Norwegian University of Science and Technology (NTNU)
 
 ---
 
