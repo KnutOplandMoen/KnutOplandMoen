@@ -25,4 +25,5 @@ Here are a few of my favorite projects.
 
 ---
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=KnutOplandMoen)](https://git.io/streak-stats)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=KnutOplandMoen&mode=weekly)](https://github.com/KnutOplandMoen/KnutOplandMoen)
