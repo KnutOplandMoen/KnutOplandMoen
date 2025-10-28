@@ -24,6 +24,3 @@ Here are a few of my favorite projects.
 | **[light_NN](https://github.com/KnutOplandMoen/light_NN)**                                               | A neural network framework for supervised and Q-learning, built from scratch in C++ as part of a university course project.                                                       | `C++`    |
 
 ---
-
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=KnutOplandMoen&mode=weekly)](https://github.com/KnutOplandMoen/KnutOplandMoen)
