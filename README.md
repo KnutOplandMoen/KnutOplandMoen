@@ -9,6 +9,7 @@ I'm Knut, a Computer Science student at the Norwegian University of Science and 
 ### About Me
 
 - 🎓 Computer Science, NTNU (August 2024 – Present)
+- 👨‍💻 Member of [ReLU NTNU](https://reluntnu.no)
 - 🔭 My primary interests lie in agentic AI, natural language processing, and computer vision.
 
 ---
