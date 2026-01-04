@@ -1,9 +1,4 @@
 # Knut Opland Moen
-
-### Hi there 👋
-
-I'm Knut, a Computer Science student at the Norwegian University of Science and Technology (NTNU)
-
 ---
 
 ### About Me
